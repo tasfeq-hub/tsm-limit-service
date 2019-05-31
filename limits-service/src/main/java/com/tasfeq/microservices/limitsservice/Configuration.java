@@ -3,7 +3,7 @@ package com.tasfeq.microservices.limitsservice;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
-//@Component // gets error of duplication of beans
+//@Component // gets error of duplication of beans...
 @ConfigurationProperties("limits-service")
 public class Configuration {
 
